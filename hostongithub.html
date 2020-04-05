@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WEBSITE HOSTING-Host on Github</title>
+	<link rel="stylesheet" href="CSS/hw1.css">
+</head>
+<body>
+	<header>
+		<h1>Website Hosting</h1>
+		<nav>
+			<a href="index.html" class = "active">Home</a>
+			<a href="Hosting Plans.html">Hosting Plans</a>
+			<a href="hostongithub.html">Host on Github</a>
+		</nav>
+	</header>
+		<main>
+			
+			<section class = "right">
+				<h2>Hosting on Github</h2>
+			<p>GITHUB is not only a great place to store and share your code with others but they also offer free web hosting of your HTML, CSS, and JavaScript projects!</p>
+			<p>In this article I’ll show you how to get setup in order to publish and share your own static HTML website on GitHub using the GitHub Desktop app!
+            <h3>1. Create a GitHub account</h3>
+        <p>First thing’s first: get yourself a GitHub account! You won’t have access to the free hosting or any other awesome features GitHub has to offer without one.
+            
+			</p>
+            <h3>  2. Download and install the GitHub Desktop app</h3>  
+            <p>
+                This is the app that we’ll use to get our code up on GitHub. It’s easy to use so don’t fret; the user interface is easy to learn!
+                <a href="https://miro.medium.com/max/1400/1*HWpte8U5csmYTx8DgzFewA.png"><img src="https://miro.medium.com/max/1400/1*HWpte8U5csmYTx8DgzFewA.png" /> </a>
+            </p>
+            <p>
+                <ul>
+                    <li>Download GitHub Desktop for macOS</li>
+                    <li>Download GitHub Desktop for Windows</li>
+                </ul>
+            </p>
+
+                Open the downloaded application file and continue through the installation process as required with your computer’s operating system.
+                Next, we’ll be creating a new GutHub project!
+            </p>
+            <h3>3. Create a new GitHub project</h3>
+            <p>
+                Before we upload our code to GitHub we first need to make GitHub Desktop aware of our project files. We do this by creating a new Repository folder, then copy our website files to this new folder.
+                <a href="https://miro.medium.com/max/804/1*g2Zobde8Do0nJRTXN_eycg.png"><img src="https://miro.medium.com/max/804/1*g2Zobde8Do0nJRTXN_eycg.png" /> </a>
+            </p>
+            <p>
+                When the “Create a New Repository” dialog window appears, fill in the “Name” text input as:    [username].github.io
+            </p>
+            <b>Note:</b> <p>It’s very important to name your repository in this manner; this will tell GitHub to host the files in this project automatically and display them when someone points their browser to:https://[username].github.io/
+                </p>
+                <p>This will be the web address you will share when your site is ready to publish and go live!
+            </p>
+            <p>
+                The “Local Path” text input is where your repository will live on your computer; this is not where your website files currently reside on your computer’s hard drive. GitHub Desktop needs to create a new, empty folder.
+                We’ll need to copy your site files over later, but for now, select a folder such as /Sites in your home folder. This will create a new folder inside the /Sites folder with the name of your repository, which will look like:/Sites/[username].github.io
+                <a href="https://miro.medium.com/max/1400/1*sqPx-566C0S4uk1Zp3_DFA.png"><img src="https://miro.medium.com/max/1400/1*sqPx-566C0S4uk1Zp3_DFA.png" /> </a>
+            </p>
+            <p>
+                Leave all the other options in the form at their default settings and click the “Create Repository” button. For now we just want to create the folder which GitHub Desktop will recognize as a folder it can work with. For the sake of the guide, let’s describe this new folder as your GitHub Repository folder.
+
+            </p>
+            <p>
+                After your GitHub Repository folder has been created by clicking the “Create Repository” button, the GitHub Desktop app should look something like this:
+                <a href="https://miro.medium.com/max/1400/1*K-hGAQLyegVwhQVPHWfccQ.png"><img src="https://miro.medium.com/max/1400/1*K-hGAQLyegVwhQVPHWfccQ.png" /> </a>
+            </p>
+            <h3>4. Copy your files to the new Repository folder</h3>
+            <p>
+                Let’s say up until now you’ve been working on your website in a folder located at /Documents/my-site; we’ll describe this as your working folder. Within this working folder there’s probably some files and folders named index.html, /css, or /javascript. What we need to do is copy everything from the working folder over to our new GitHub Repository folder.
+                In the previous step, we created the GitHub Repository folder inside the /Sites folder with the name, [username].github.io. So, this means the GitHub Repository folder should be located at /Sites/[username].github.important
+            </p>
+            <p>
+                Copy everything in your working folder (/Documents/my-site for example) into your GitHub Repository folder (/Sites/[username].github.io).
+The GitHub Desktop app should now look something like this:
+<a href="https://miro.medium.com/max/1400/1*M020yo66fYAYy6Lj0XJC6Q.png"><img src="https://miro.medium.com/max/1400/1*M020yo66fYAYy6Lj0XJC6Q.png" /> </a>
+            </p>
+            <p>
+                With all our files in the GitHub Repository folder, we’re ready to commit our files!
+To “commit” files means to take a “snapshot” of the files and folders in their current state. By doing so, we get them ready to be pushed up to a repository on GitHub.
+            </p>
+            <p>
+                Before we commit our files for publishing, we first need to tell GitHub what this commit is all about. Fill in the “Summary” text input, located near the bottom left of the user interface, with a high-level title of what this commit entails; something simple like, “My first commit! 😀” works just fine in this instance.
+            
+            </p>
+            <p>
+                Optionally, you can add more details about the commit in the “Description” text box. Usually you’d want to include things like what changed; maybe you fixed a bug or added some new content. It’s great to have these notes available for other developers or even future you to make sure you know why you made those changes oh so long ago!
+
+            </p>
+            <p>
+                Once the “Summary” and optional “Description” fields are filled out to your liking, click the “Commit to master” button!
+            </p>
+            <h3>5. Publish your website</h3>
+            <p>
+                After clicking the “Commit to master” button in the previous step, you may be wondering:
+What just happened? My files are gone and the app is empty now!
+Don’t fret! In the bottom left corner of the GitHub Desktop interface there’s a little indicator that your commit was successful.
+<a href="https://miro.medium.com/max/1068/1*e7su_cuM4YcWUXT88Foh1Q.png"><img src="https://miro.medium.com/max/1068/1*e7su_cuM4YcWUXT88Foh1Q.png" /> </a>
+            </p>
+            <p>
+                Now that our files are committed, this allows us to push our commit to GitHub!
+To “push” files means to upload the committed files in their current state to a repository on GitHub.
+            </p>
+            <p>
+                Find the “Publish repository” button along the top of the GitHub Desktop interface.
+                <a href="https://miro.medium.com/max/988/1*_Cy89mk2ZRAxWiXI3iErKQ.png"><img src="https://miro.medium.com/max/988/1*_Cy89mk2ZRAxWiXI3iErKQ.png" /> </a>
+            </p>
+            <p>When the “Publish Repository” dialog window appears after clicking the “Publish repository” button, it will first prompt you to sign-in to GitHub if you haven’t yet already.
+                Click the “Sign In” button to show the “Sign In” dialog window; fill in your Username and Password and click the “Sign In” button to complete the process. You should now be logged in and good to proceed!
+                <a href=https://miro.medium.com/max/1400/1*J1bI0-TNH_lRHXBEgZAhHA.png><img src=https://miro.medium.com/max/1400/1*J1bI0-TNH_lRHXBEgZAhHA.png /> </a>
+            </p>
+            <p>
+                Now that we’re signed in to GitHub, go ahead and click the “Publish repository” button to begin the upload process.
+            </p>
+            <p>
+                The “Publish Repository” dialog window will appear with a last few options for you to choose from before placing your website live.
+All the options in the form are fine as-is except the “Keep this code private” checkbox; this needs to be unchecked in order for you to share your site with friends and family.
+<a href=https://miro.medium.com/max/914/1*MrPaZh_Peq3VBk-aLOGSVQ.gif><img src=https://miro.medium.com/max/914/1*MrPaZh_Peq3VBk-aLOGSVQ.gif /> </a>
+            </p>
+            <p>
+                Click the “Publish Repository” button to send your files up to GitHub!
+Now, in your browser, go to your new GitHub repository page to make sure your files made the journey to their new home:
+https://github.com/[username]/[username].github.io
+Are all your files present and accounted for? Good! Nice job! 👍
+            </p>
+            <h3>6. Share your website!</h3>
+            <p>The very last step is to get excited and check out your website in your browser! Surf on over to:
+https://[username].github.io/
+</p>
+<p>
+    Your website should appear before your very eyes! ✨😄✨
+    <a href=https://media1.tenor.com/images/b25b3efbd151e916edfe4af80079af51/tenor.gif?itemid=3567340><img src=https://media1.tenor.com/images/b25b3efbd151e916edfe4af80079af51/tenor.gif?itemid=3567340/> </a>
+</p>
+
+
+            
+</main>
+</body>
+</html>
