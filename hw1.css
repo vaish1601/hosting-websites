@@ -91,7 +91,9 @@ button{
     opacity:0.8;
     margin:0 35%;
     padding:2% 5%;
-    border-color: black;
+    border:none;
+    box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2),
+    0 11px 21px 0 rgba(255, 166, 220, 0.004);
 }
 button:hover{
 	color: #0947f1;
